@@ -172,7 +172,7 @@ def lan_menu():
 
 PORT = 4367
 hostname = socket.gethostname()
-hostip = socket.gethostbyname(hostname)
+hostip = "0.0.0.0"
 
 def host_game():
 	serv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
